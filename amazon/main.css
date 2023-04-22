@@ -1,0 +1,65 @@
+*{ 
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family:monospace ;
+}
+nav
+{
+	width:100%;
+	background: url("jijiwa_1.png")
+    height: 70PX;
+  
+}
+label.logo{
+	color: white;
+	font-size: 50px;
+	line-height: 80PX;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+NAV UL LI{
+	display: inline-block;
+	line-height: 80px;
+	margin-right: 70px;
+}
+NAV UL LI A{
+	color: WHITE;
+	font-size: 17PX;
+	padding: 7px 13px;
+	border-radius: 3PX;
+	 text-transform: uppercase;
+}
+a.active, a:hover{
+	background: grey;
+	transition: .5s;
+}
+body {
+	background-color: black;
+}
+
+p {
+	font-size:8px;
+	line-height:8px;
+	text-align:justify;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: url(JIJI2.png) no-repeat center/COVER;
+
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgb(225, 225, 255, 0);
+}

@@ -1,0 +1,109 @@
+
+*{ 
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family:monospace ;
+}
+nav
+{
+	width:100%;
+	background: url("jijiwa_1.png")
+    height: 70PX;
+  
+}
+label.logo{
+	color: white;
+	font-size: 50px;
+	line-height: 80PX;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+NAV UL LI{
+	display: inline-block;
+	line-height: 80px;
+	margin-right: 70px;
+}
+NAV UL LI A{
+	color: WHITE;
+	font-size: 17PX;
+	padding: 7px 13px;
+	border-radius: 3PX;
+	 text-transform: uppercase;
+}
+a.active, a:hover{
+	background: grey;
+	transition: .5s;
+}
+body {
+	background-color: black;
+}
+center{
+	margin: 50%;
+}
+.container {
+	padding: 5rem;
+}
+
+.slider-wrapper {
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}

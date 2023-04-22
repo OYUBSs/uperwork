@@ -1,0 +1,84 @@
+*{ 
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: monospace;
+}
+nav
+{
+	width:100%;
+	background: black;
+    height: 70PX;
+  
+}
+label.logo{
+	color: white;
+	font-size: 50px;
+	line-height: 80PX;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+NAV UL LI{
+	display: inline-block;
+	line-height: 80px;
+	margin-right: 70px;
+}
+NAV UL LI A{
+	color: WHITE;
+	font-size: 17PX;
+	padding: 7px 13px;
+	border-radius: 3PX;
+	 text-transform: uppercase;
+}
+a.active, a:hover{
+	background: #a0ff91;
+	transition: .5s;
+}
+
+{ 
+	overflow:;
+}
+.center {
+left: ;
+
+}
+.e1_2 { 
+	background-color:rgba(0, 0, 0, 1);
+	width:1892px;
+	height:2579px;
+	position:absolute;
+}
+.e15_3 { 
+	width:1892px;
+	height:2579px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/jijiwa_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e15_8 { 
+	width:600px;
+	height:600px;
+	position:absolute;
+	left:1136px;
+	top:21px;
+	background-image:url(images/cirle_gif_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.audio{
+	background-color: BLACK;
+}
